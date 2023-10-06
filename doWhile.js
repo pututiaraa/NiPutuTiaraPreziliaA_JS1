@@ -1,5 +1,11 @@
-//Contoh Program Do While
+//Contoh Program do..while
 
-var a = 10;
+let angka = 0;
+const a = 5;
 
-do
+console.log("Hasil perulangan: ")
+
+do {
+    console.log(angka);
+    angka++;
+} while(angka <= a);
